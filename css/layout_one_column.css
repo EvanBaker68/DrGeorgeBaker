@@ -1,0 +1,70 @@
+/* 2-Column Layout Stylesheet */ 
+
+body {
+	text-align: left;
+	margin: 0px;
+	padding: 0px 13px 0px 0px;
+}
+
+#wrapper {
+	text-align: left;
+	width: 900px;
+	height: auto;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#top_1 {
+	width: auto;
+	height: 72px;
+	border: 0px;
+	margin: 0px 0px 0px 613px;
+	padding: 0px;
+}
+
+#top_2 {
+	width: auto;
+	height: 117px;
+	text-align: center;
+	border: 0px;
+	margin: 7px 73px 0px 193px;
+	padding: 0px;
+}
+
+#content {
+	position: relative;
+	width: 900px;
+	height: auto;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#single_column {
+	float: left;
+	width: 849px;
+	height: auto;
+	text-align: left;
+	border: 0px;
+	margin: 0px;
+	padding: 0px 0px 0px 51px;
+}
+
+#spacer {
+	clear: both;
+	width: auto;
+	height: 31px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#bottom {
+	width: auto;
+	height: auto;
+	border: dotted #e2dddf;
+	border-width: 2px 0px 0px 0px;
+	margin: 0px 0px 0px 51px;
+	padding: 21px 0px 9px 0px;
+}

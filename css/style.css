@@ -1,0 +1,132 @@
+body {
+  line-height: 24px;
+  font-size: 13px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+  background: url(../graphics/background.jpg);
+}
+
+body .fleurs_bg{
+  background: url(../graphics/background.jpg);
+  background-color: #000000;
+  background-size: contain;
+}
+
+body .content_inner_bg {
+  background: #efefef;
+}
+
+.navbar {
+  /* background-color: #996600 !important; */
+  /* background: url(../graphics/background.jpg); */
+  /* border: #000000 3px solid; */
+  /* border: 0 !important; */
+  padding-top: 10px;
+  padding-bottom: 30px;
+  visibility: visible;
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark .navbar-brand{
+  float: left;
+  text-align: left;
+  padding-left: 0px;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  /* text-shadow: 1px 1 px #ffffff; */
+  margin-top: 20px;
+  /* color: #ffffff; */
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark .navbar-collapse .navbar-nav li a{
+  /* color: #ffffff; */
+
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.about_person_area {
+  background: #fff;
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about_person_area .person_img {
+  max-width: 322px;
+  margin-left: 25px;
+  margin-top: 200px;
+}
+
+.about_person_area .person_img img {
+  min-width: 110%;
+}
+
+.about_person_area .person_img p {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.about_person_area .person_img .download_btn {
+  margin-top: 40px;
+}
+
+
+.about_person_area .person_details {
+  margin-left: -30px;
+}
+
+.about_person_area .person_details h3 {
+  font-size: 36px;
+  color: #333333;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.about_person_area .person_details h3 span {
+  color: #fec608;
+}
+
+.about_person_area .person_details h4 {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #666666;
+  padding-bottom: 15px;
+}
+
+.about_person_area .person_details p {
+  font-size: 13px;
+  line-height: 24px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  padding-right: 100px;
+}
+
+.about_person_area .person_details .person_information {
+  padding: 15px 0px 25px 0px;
+}
+
+.about_person_area .person_details .person_information ul {
+  display: inline-block;
+}
+
+.about_person_area .person_details .person_information ul li a {
+  font-size: 13px;
+  line-height: 26px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+}
+
+.about_person_area .person_details .person_information ul + ul {
+  padding-left: 55px;
+}
+
+.about_person_area .person_details .person_information ul + ul li a {
+  font-size: 13px;
+  line-height: 26px;
+  color: #666666;
+  font-family: "Raleway", sans-serif;
+}

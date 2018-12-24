@@ -1,0 +1,9 @@
+# updated 2010-04-17 by Mike Medley
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /audio/
+Disallow: /contact/confirmation.html
+Disallow: /dynamic/
+Disallow: /graphics/
+Disallow: /legal/
+Disallow: /site_photos/

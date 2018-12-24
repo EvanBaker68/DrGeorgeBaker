@@ -1,0 +1,87 @@
+/* Presentation Stylesheet to Add Tables */
+/* table borders (to hide use border: none; to show use this example - border: 1pt dashed red;) */
+
+table {
+	background: transparent;
+	table-layout: auto;
+	width: 838px;
+	border-collapse: collapse;
+	border: none;
+	margin: 9px 0px 9px 11px;
+}
+
+td {
+	border: none;
+	padding: 9px 0px 9px 0px;
+	text-align: left;
+	vertical-align: top;
+}
+
+td.disc_image {
+	width: 22%;
+	padding: 23px 0px 23px 0px;
+}
+
+td.disc_main {
+	width: 58%;
+	padding: 23px 0px 23px 0px;
+}
+
+td.disc_catalog_info {
+	width: 20%;
+	padding: 23px 0px 23px 0px;
+}
+
+td.separated {
+	border: solid #e2dddf;
+	border-width: 0px 0px 1px 0px;
+}
+
+td.first {
+	padding: 9px 0px 23px 0px;
+}
+
+td.lefttop {
+	text-align: left;
+	vertical-align: top;
+}
+
+td.centertop {
+	text-align: center;
+	vertical-align: top;
+}
+
+td.righttop {
+	text-align: right;
+	vertical-align: top;
+}
+
+td.leftmiddle {
+	text-align: left;
+	vertical-align: middle;
+}
+
+td.centermiddle {
+	text-align: center;
+	vertical-align: middle;
+}
+
+td.rightmiddle {
+	text-align: right;
+	vertical-align: middle;
+}
+
+td.leftbottom {
+	text-align: left;
+	vertical-align: bottom;
+}
+
+td.centerbottom {
+	text-align: center;
+	vertical-align: bottom;
+}
+
+td.rightbottom {
+	text-align: right;
+	vertical-align: bottom;
+}
